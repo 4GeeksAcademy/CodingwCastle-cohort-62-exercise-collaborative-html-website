@@ -2,7 +2,23 @@ body{
     background: #BDBDBD;
 }
 
-/* Footer list items hover */
 .list-group-item:hover {
     background: rgb(68, 74, 82) !important;
+}
+
+.Main {
+  height: 100vh;
+  background-image: url("/website/assets/img/bg.jpg"); 
+  background-position: center;
+}
+
+.firstText {
+  background-color: rgba(255, 255, 255, 0.8);
+  padding-top: 1.5rem;
+  padding-bottom: 1.5rem;
+}
+
+.firstText h1,
+.firstText h3 {
+  color: #222;
 }
